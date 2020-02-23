@@ -52,7 +52,7 @@ body{
 
 a {
     text-decoration: none;
-    color: #A7BFD4;
+    color: #B5BBC3;
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -106,9 +106,8 @@ nav ul li a {
 /*-----------------Image Section---------------------*/
 #site-image {
     height: 500px;
-/*    width: 1300px;*/
-    background: linear-gradient(to bottom right, rgba(2,0,36,1) 15%, rgba(250,0,117,0.53) 53%, rgba(254,255,0,0.67) 100%), 
-    url(../img/toronto-skyline-evening.png) no-repeat fixed ;
+    width: 1300px;
+    background: url(../img/toronto-skyline-evening.png) no-repeat fixed ;
     background-size:cover;
     background-color: #1f202b;
     border-left: 100px solid black;
@@ -119,19 +118,19 @@ nav ul li a {
     clear: both;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
-    line-height: 80px;
-    padding: 100px 0 0 160px;
+    line-height: 60px;
+    padding: 0 0 50px 600px;
     text-transform:lowercase;
 }
 
 .top-left {
     position: absolute;
-    top: 100px;
+    top: 50px;
     left: 16px;
 }
 
 span {
-    color: #fa0075;
+    color: #894982;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
@@ -143,7 +142,7 @@ span {
 
 h3 {
     text-align: center;
-    color: #fa0075;
+    color: #894982;
     text-transform:lowercase;
 }
 
@@ -177,8 +176,8 @@ h5 {
 /*-----------------About Me Section---------------------*/
 
 #about{
-    background-color: #e4dde2;
-    color: #fa0075
+    background-color: #332E3A;
+    color: #894982
     overflow: auto;
     height: 500px;
     width: auto;
@@ -188,12 +187,12 @@ h5 {
 #about h2 {
     padding-top: 20px;
     text-align: center;
-    color: #fa0075
+    color: #894982
 }
 
 #about p{
         padding: 40px 60px 0 20px; 
-        color: #fa0075
+        color: #894982
 }
 
 .profile-img {
