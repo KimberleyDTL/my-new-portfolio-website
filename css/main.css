@@ -9,6 +9,7 @@ Color Palette
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
+font-family: 'Petit Formal Script', ;
 */
 
 /*-----------------------Grid---------------------*/
@@ -67,19 +68,15 @@ header{
 
 header h1{
     float: left;
-    color: #B5BBC3;
     font-size: 20px;
     margin: 10px;
-    font-family: 'Montserrat', sans-serif;
     line-height: 10px;
-/*    padding-bottom: 40px;*/
 }
 
 nav {
     clear: both;
-    text-align: right;
-    
-   }
+    text-align: right; 
+}
 
 nav ul {
     margin: 10px 10px 10px 10px;
@@ -91,11 +88,10 @@ nav ul li {
 
 nav ul li a {
     border: none;
-    color: #B5BBC3;
     text-transform:lowercase;
     text-decoration: none;
     text-align: right;
-    font-family: 'Montserrat', sans-serif;
+/*    font-family: 'Montserrat', sans-serif;*/
     font-size: 20px;
     font-weight: 10;
     padding-left: 10px;
@@ -114,24 +110,20 @@ nav ul li a {
 }
 
 #site-image h2 {
-    width: 400px; 
+    width: 350px; 
     clear: both;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     line-height: 60px;
-    padding: 0 0 50px 600px;
+    padding: 50px 0 0 20px;
     text-transform:lowercase;
 }
 
-.top-left {
-    position: absolute;
-    top: 50px;
-    left: 16px;
-}
 
 span {
     color: #894982;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Petit Formal Script';
+    font-size: 60px;
     font-weight: bold;
 }
 /*-----------------Portfolio Section---------------------*/
@@ -154,7 +146,6 @@ h4 {
 } 
 
 h5 {
-/*    height: 350px;  */
     margin-left: 50px;
     padding: 0 100px 0 100px;
     
@@ -176,7 +167,7 @@ h5 {
 /*-----------------About Me Section---------------------*/
 
 #about{
-    background-color: #332E3A;
+    background-color: #E2CED6;
     color: #894982
     overflow: auto;
     height: 500px;
@@ -185,14 +176,15 @@ h5 {
         }
 
 #about h2 {
-    padding-top: 20px;
-    text-align: center;
-    color: #894982
+    padding: 20px 0 0 20px;
+    color: #894982;
+    font-family: 'Petit Formal Script';
 }
 
 #about p{
         padding: 40px 60px 0 20px; 
-        color: #894982
+        color: #894982;
+        text-align: left;
 }
 
 .profile-img {
